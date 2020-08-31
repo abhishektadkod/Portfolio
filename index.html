@@ -122,10 +122,11 @@
     </a></div>
     <div class="right">
       <ul class="menu">
-        <!-- <li><a href="#">Tour</a></li>
-        <li><a href="#">Upgrade</a></li>
-        <li><a href="#">Help</a></li> -->
-        <!-- <li><a href="#">Explore</a></li> -->
+        <ul class="social opacity-8">
+          <li><a href="#"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#facebook"></use></svg></a></li>
+          <li><a href="#"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#twitter"></use></svg></a></li>
+          <li><a href="#"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#instagram"></use></svg></a></li>
+        </ul>
       </ul>
       <!-- <a class="button blue rounded small" href="#">Profile</a>  -->
     </div>
@@ -141,11 +142,34 @@
   <div class="close"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#close"></use></svg></div>
   <div class="content">
     <a href="#" class="logo"><svg width="100" height="30"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#logo"></use></svg></a>
-    <ul class="mainMenu margin-top-3">
-      <li><a href="#">Bla</a></li>
-      <li><a href="#">Bla</a></li>
-      <li><a href="#">Bla</a></li>
-      <li><a href="#">Bla</a></li>
+    <ul class="mainMenu margin-top-3 ">
+      <ul class="slider" data-slider-id="unique-id">
+        
+        <li class="selected">
+          <div class="indigo p-5 m-2">
+            <h4>Hi! I am Abhishek</h4>
+          </div>
+        </li>
+        <li>
+          <div class="purple p-5 m-2">
+            
+           <h4> Know more about <b>me</b> in this site</h4>
+
+          </div>
+        </li>
+        <li>
+          <div class="white p-5 m-2">
+           <h4> Don't forget to check my <b>work</b></h4>
+          </div>
+        </li>
+      </ul>
+      
+                      <!-- controller -->
+      <ul class="controller pl-5" data-slider-id="unique-id">
+        <li class="dot selected"></li>
+        <li class="dot"></li>
+        <li class="dot"></li>
+      </ul>
     </ul>
     <ul class="subMenu small opacity-8">
       <!-- <li><a href="#">Submit Product</a></li>
@@ -162,7 +186,7 @@
     </ul>
   </div>
 </nav>
-<!-- White Slide 1 (#06) -->
+<!-- Landing (#06) -->
 <section class="slide fade-1 kenBurns zoomin white">
   <div class="content">
     <div class="container">
@@ -190,7 +214,7 @@
   
 </section>
 
-<!-- White Slide 2 (#10) -->
+<!-- White -->
 <section class="slide whiteSlide " >
   <div class="content">
     <div class="container">
@@ -198,8 +222,14 @@
       
         <div class="fix-7-12">
           <h1 class="smaller margin-bottom-2 ae-1">Judge this site!</h1>
-          <p class="large ae-2"><span class="opacity-8">Frontend Designing is one of the most irritaing job out there. <br/> Requires a lot of patience</span></p>
+          <p class="large ae-2"><span class="opacity-8">Frontend Designing is one of the most mind numbing job out there. <br/> Requires a lot of patience</span></p>
+
+          <p class="large ae-8 margin-top-10"><span class="opacity-6">Show some love<span style="color:red;"> 	&#10084;</span></p>
+
         </div>  
+        
+
+        
         
       </div>
     </div>
@@ -207,7 +237,7 @@
   
 </section>
 
-<!-- White Slide 3 (#10) -->
+<!-- Work -->
 <section class="slide whiteSlide purple" data-name="Work">
   <div class="content">
     <div class="container">
@@ -226,7 +256,7 @@
   
 </section>
 
-<!-- White Slide 4 (#09) -->
+<!-- About me -->
 <section class="slide whiteSlide blue" data-name="About">
   <div class="content">
     <div class="container">
@@ -245,8 +275,8 @@
   
 </section>
 
-<!-- White Slide 5 (#09) -->
-<section class="slide whiteSlide black">
+<!-- Contact Me -->
+<section class="slide whiteSlide deep-purple">
   <div class="content">
     <div class="container">
       <div class="wrap">
@@ -255,7 +285,7 @@
           <div class="fix-3-12">
             <svg width="219" height="96" xmlns="http://www.w3.org/2000/svg">
               <!-- Created with Method Draw - http://github.com/duopixel/Method-Draw/ -->
-              <g>
+              <!-- <g>
                <title>background</title>
                <rect fill="#fff" id="canvas_background" height="98" width="221" y="-1" x="-1"/>
                <g display="none" overflow="visible" y="0" x="0" height="100%" width="100%" id="canvasGrid">
@@ -266,18 +296,35 @@
                <title>Layer 1</title>
                <rect id="svg_6" height="111.99999" width="249.25001" y="-9.5" x="-10.87501" stroke-opacity="null" stroke-width="2" stroke="#000" fill="#202020"/>
                <text transform="matrix(1.15208, 0, 0, 1.85733, -4.73364, -32.0158)" xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="24" id="svg_7" y="50.13513" x="21.80811" stroke-width="2" stroke="#ffffff" fill="#ffffff">CONTACT ME</text>
-              </g>
+              </g> -->
              </svg>
+            <h1 class="text-center">Contact Me!</h1>
+
           </div>
           <!-- <div class="button play small white popupTrigger ae-2 fromCenter margin-top-4 margin-bottom-4" data-popup-id="9">
             <svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#play"></use></svg>
           </div> -->
           <p class="large ae-3"><span class="opacity-8">And see the wonder yourself! <b></b> </span></p>
-          <form class="slides-form" action="#">
+          <!-- <form class="slides-form" action="#">
+            <div class="form-group">
             <input type="text" class="rounded input-9 ae-4 fromCenter" name="user-email" placeholder="Name"/>
+          </div>
             <input type="email" class="rounded input-9 ae-5 fromCenter" name="user-password" placeholder="Email"/>
             <input type="text" class="rounded input-9 ae-6 fromCenter" name="confirm-password" placeholder="Brief idea about who you are.."/>
             <button type="submit" class="button blue rounded button-9 ae-7 fromCenter" name="button">Submit</button>
+          </form> -->
+
+          <form>
+            <div class="form-group">
+              <input placeholder="Name" type="text"/>
+            </div>
+            <div class="form-group">
+              <input  placeholder="Email" type="text"/>
+            </div>
+            <div class="form-group">
+              <textarea  placeholder="Brief idea about who you are.." type="text"></textarea>
+            </div>
+              <input class="btn btn-outline-light" type="submit" value="Submit"/>
           </form>
         </div>
 
